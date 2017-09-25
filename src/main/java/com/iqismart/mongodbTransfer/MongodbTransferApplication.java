@@ -7,10 +7,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication(exclude = MongoAutoConfiguration.class)
 @EnableScheduling
-public class RmtUtilsApplication {
+public class MongodbTransferApplication {
 
 	public static void main(String[] args) throws InterruptedException {
-		SpringApplication app = new SpringApplication(RmtUtilsApplication.class);
+		SpringApplication app = new SpringApplication(MongodbTransferApplication.class);
 		app.addListeners(new ApplicationStartup());
 		app.run(args);
 	}

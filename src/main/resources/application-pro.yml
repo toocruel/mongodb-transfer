@@ -3,16 +3,11 @@ rmt:
   from_db:
     host: 10.174.113.166
     port: 27017
-    user:
-    password:
   to_db:
     host: 10.25.36.123
     port: 27017
-    user:
-    password:
   database: 9tong
   collections: user_contacts,user_gps,weibo_contacts,linkedin_contacts,contacts_update_state
-#  singleConnection: contacts_update_state
   oneByOne: false
   batchCount: 1000
 
