@@ -7,7 +7,7 @@ rmt:
     host: 10.25.36.123
     port: 27017
   database: 9tong
-  collections: user_contacts,user_gps,weibo_contacts,linkedin_contacts,contacts_update_state
+  collections: user_contacts,user_gps,weibo_contacts,linkedin_contacts,contacts_update_state,seq
   oneByOne: false
   batchCount: 1000
 

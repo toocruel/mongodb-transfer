@@ -48,7 +48,7 @@ logging:
 2.copy到生产服务器上，执行
 
 ```
-nohup  java -jar mongodb-transfer-0.0.1-SNAPSHOT.jar --spring.profiles.active=pro &
+nohup  java -jar mongodb-transfer-0.0.1.jar --spring.profiles.active=pro &
 ```
 
 3.查看日志 jar所在目录下 ```logs/spring.log```
